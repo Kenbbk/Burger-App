@@ -8,6 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		D6E4FA8C2A6E4CB7001CBB3A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FA8B2A6E4CB7001CBB3A /* main.swift */; };
+		D6E4FA932A6E68DA001CBB3A /* BurgerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FA922A6E68DA001CBB3A /* BurgerService.swift */; };
+		D6E4FA952A6E6981001CBB3A /* IceCreamService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FA942A6E6981001CBB3A /* IceCreamService.swift */; };
+		D6E4FA972A6E6E59001CBB3A /* Sellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FA962A6E6E59001CBB3A /* Sellable.swift */; };
+		D6E4FA9B2A6EE346001CBB3A /* DrinkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FA9A2A6EE346001CBB3A /* DrinkService.swift */; };
+		D6E4FA9D2A6EE354001CBB3A /* BeerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FA9C2A6EE354001CBB3A /* BeerService.swift */; };
+		D6E4FAAB2A6EE3F1001CBB3A /* ReadLiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FAAA2A6EE3F1001CBB3A /* ReadLiner.swift */; };
+		D6E4FAB02A6EE447001CBB3A /* OrderRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FAAF2A6EE447001CBB3A /* OrderRepository.swift */; };
+		D6E4FAB22A6EE47C001CBB3A /* OrderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FAB12A6EE47C001CBB3A /* OrderService.swift */; };
+		D6E4FAB42A6EE485001CBB3A /* CancelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FAB32A6EE485001CBB3A /* CancelService.swift */; };
+		D6E4FAB82A6EE55D001CBB3A /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FAB72A6EE55D001CBB3A /* Customer.swift */; };
+		D6E4FABD2A6EE7E3001CBB3A /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FABC2A6EE7E3001CBB3A /* Order.swift */; };
+		D6E4FABF2A6EF2B5001CBB3A /* MenuMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FABE2A6EF2B5001CBB3A /* MenuMaker.swift */; };
+		D6E4FAC12A6F51FC001CBB3A /* BurgerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FAC02A6F51FC001CBB3A /* BurgerApp.swift */; };
+		D6E4FAC42A6F52FA001CBB3A /* MenuRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FAC32A6F52FA001CBB3A /* MenuRepository.swift */; };
+		D6E4FAC62A6F594F001CBB3A /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FAC52A6F594F001CBB3A /* Dependency.swift */; };
+		D6E4FAC82A6F82E3001CBB3A /* CartRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FAC72A6F82E3001CBB3A /* CartRepository.swift */; };
+		D6E4FACB2A6FCD54001CBB3A /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FACA2A6FCD54001CBB3A /* Date+Ext.swift */; };
+		D6E4FAED2A703ECE001CBB3A /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FAEC2A703ECE001CBB3A /* DateService.swift */; };
+		D6E4FAEF2A704887001CBB3A /* Burger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FAEE2A704887001CBB3A /* Burger.swift */; };
+		D6E4FAF12A70489D001CBB3A /* IceCream.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FAF02A70489D001CBB3A /* IceCream.swift */; };
+		D6E4FAF32A7048A2001CBB3A /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FAF22A7048A2001CBB3A /* Beer.swift */; };
+		D6E4FAF52A7048AE001CBB3A /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FAF42A7048AE001CBB3A /* Drink.swift */; };
+		D6E4FAF72A70AA95001CBB3A /* MoneyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FAF62A70AA95001CBB3A /* MoneyService.swift */; };
+		D6E4FB252A71FF36001CBB3A /* Calendar+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FB242A71FF36001CBB3A /* Calendar+Ext.swift */; };
+		D6E4FB282A7247C9001CBB3A /* QueueService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E4FB272A7247C9001CBB3A /* QueueService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +50,31 @@
 /* Begin PBXFileReference section */
 		D6E4FA882A6E4CB7001CBB3A /* BurgerApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BurgerApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E4FA8B2A6E4CB7001CBB3A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D6E4FA922A6E68DA001CBB3A /* BurgerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerService.swift; sourceTree = "<group>"; };
+		D6E4FA942A6E6981001CBB3A /* IceCreamService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCreamService.swift; sourceTree = "<group>"; };
+		D6E4FA962A6E6E59001CBB3A /* Sellable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sellable.swift; sourceTree = "<group>"; };
+		D6E4FA9A2A6EE346001CBB3A /* DrinkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkService.swift; sourceTree = "<group>"; };
+		D6E4FA9C2A6EE354001CBB3A /* BeerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerService.swift; sourceTree = "<group>"; };
+		D6E4FAAA2A6EE3F1001CBB3A /* ReadLiner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadLiner.swift; sourceTree = "<group>"; };
+		D6E4FAAF2A6EE447001CBB3A /* OrderRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRepository.swift; sourceTree = "<group>"; };
+		D6E4FAB12A6EE47C001CBB3A /* OrderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderService.swift; sourceTree = "<group>"; };
+		D6E4FAB32A6EE485001CBB3A /* CancelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelService.swift; sourceTree = "<group>"; };
+		D6E4FAB72A6EE55D001CBB3A /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		D6E4FABC2A6EE7E3001CBB3A /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		D6E4FABE2A6EF2B5001CBB3A /* MenuMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuMaker.swift; sourceTree = "<group>"; };
+		D6E4FAC02A6F51FC001CBB3A /* BurgerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerApp.swift; sourceTree = "<group>"; };
+		D6E4FAC32A6F52FA001CBB3A /* MenuRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRepository.swift; sourceTree = "<group>"; };
+		D6E4FAC52A6F594F001CBB3A /* Dependency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
+		D6E4FAC72A6F82E3001CBB3A /* CartRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRepository.swift; sourceTree = "<group>"; };
+		D6E4FACA2A6FCD54001CBB3A /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		D6E4FAEC2A703ECE001CBB3A /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
+		D6E4FAEE2A704887001CBB3A /* Burger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Burger.swift; sourceTree = "<group>"; };
+		D6E4FAF02A70489D001CBB3A /* IceCream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IceCream.swift; sourceTree = "<group>"; };
+		D6E4FAF22A7048A2001CBB3A /* Beer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		D6E4FAF42A7048AE001CBB3A /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		D6E4FAF62A70AA95001CBB3A /* MoneyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyService.swift; sourceTree = "<group>"; };
+		D6E4FB242A71FF36001CBB3A /* Calendar+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+Ext.swift"; sourceTree = "<group>"; };
+		D6E4FB272A7247C9001CBB3A /* QueueService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +107,90 @@
 		D6E4FA8A2A6E4CB7001CBB3A /* BurgerApp */ = {
 			isa = PBXGroup;
 			children = (
+				D6E4FAB62A6EE521001CBB3A /* Extensions */,
+				D6E4FAB52A6EE4F5001CBB3A /* Dependency */,
 				D6E4FA8B2A6E4CB7001CBB3A /* main.swift */,
+				D6E4FA9E2A6EE368001CBB3A /* Services */,
+				D6E4FAA52A6EE3A6001CBB3A /* Model */,
+				D6E4FAAE2A6EE41A001CBB3A /* Repositories */,
+				D6E4FAC22A6F520E001CBB3A /* App */,
 			);
 			path = BurgerApp;
+			sourceTree = "<group>";
+		};
+		D6E4FA9E2A6EE368001CBB3A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4FA922A6E68DA001CBB3A /* BurgerService.swift */,
+				D6E4FA942A6E6981001CBB3A /* IceCreamService.swift */,
+				D6E4FA9A2A6EE346001CBB3A /* DrinkService.swift */,
+				D6E4FA9C2A6EE354001CBB3A /* BeerService.swift */,
+				D6E4FAB12A6EE47C001CBB3A /* OrderService.swift */,
+				D6E4FAB32A6EE485001CBB3A /* CancelService.swift */,
+				D6E4FAEC2A703ECE001CBB3A /* DateService.swift */,
+				D6E4FAAA2A6EE3F1001CBB3A /* ReadLiner.swift */,
+				D6E4FABE2A6EF2B5001CBB3A /* MenuMaker.swift */,
+				D6E4FAF62A70AA95001CBB3A /* MoneyService.swift */,
+				D6E4FB272A7247C9001CBB3A /* QueueService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D6E4FAA52A6EE3A6001CBB3A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4FAB92A6EE656001CBB3A /* Protocols */,
+				D6E4FAEE2A704887001CBB3A /* Burger.swift */,
+				D6E4FAF02A70489D001CBB3A /* IceCream.swift */,
+				D6E4FAF42A7048AE001CBB3A /* Drink.swift */,
+				D6E4FAF22A7048A2001CBB3A /* Beer.swift */,
+				D6E4FAB72A6EE55D001CBB3A /* Customer.swift */,
+				D6E4FABC2A6EE7E3001CBB3A /* Order.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D6E4FAAE2A6EE41A001CBB3A /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4FAAF2A6EE447001CBB3A /* OrderRepository.swift */,
+				D6E4FAC32A6F52FA001CBB3A /* MenuRepository.swift */,
+				D6E4FAC72A6F82E3001CBB3A /* CartRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		D6E4FAB52A6EE4F5001CBB3A /* Dependency */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4FAC52A6F594F001CBB3A /* Dependency.swift */,
+			);
+			path = Dependency;
+			sourceTree = "<group>";
+		};
+		D6E4FAB62A6EE521001CBB3A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4FACA2A6FCD54001CBB3A /* Date+Ext.swift */,
+				D6E4FB242A71FF36001CBB3A /* Calendar+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D6E4FAB92A6EE656001CBB3A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4FA962A6E6E59001CBB3A /* Sellable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D6E4FAC22A6F520E001CBB3A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4FAC02A6F51FC001CBB3A /* BurgerApp.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +251,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E4FAB02A6EE447001CBB3A /* OrderRepository.swift in Sources */,
+				D6E4FB282A7247C9001CBB3A /* QueueService.swift in Sources */,
+				D6E4FB252A71FF36001CBB3A /* Calendar+Ext.swift in Sources */,
+				D6E4FAC12A6F51FC001CBB3A /* BurgerApp.swift in Sources */,
+				D6E4FA952A6E6981001CBB3A /* IceCreamService.swift in Sources */,
+				D6E4FAF32A7048A2001CBB3A /* Beer.swift in Sources */,
+				D6E4FA932A6E68DA001CBB3A /* BurgerService.swift in Sources */,
+				D6E4FABD2A6EE7E3001CBB3A /* Order.swift in Sources */,
+				D6E4FAF72A70AA95001CBB3A /* MoneyService.swift in Sources */,
+				D6E4FAB82A6EE55D001CBB3A /* Customer.swift in Sources */,
+				D6E4FAEF2A704887001CBB3A /* Burger.swift in Sources */,
+				D6E4FAAB2A6EE3F1001CBB3A /* ReadLiner.swift in Sources */,
+				D6E4FAC42A6F52FA001CBB3A /* MenuRepository.swift in Sources */,
+				D6E4FA972A6E6E59001CBB3A /* Sellable.swift in Sources */,
+				D6E4FACB2A6FCD54001CBB3A /* Date+Ext.swift in Sources */,
+				D6E4FAC62A6F594F001CBB3A /* Dependency.swift in Sources */,
+				D6E4FAED2A703ECE001CBB3A /* DateService.swift in Sources */,
+				D6E4FAB22A6EE47C001CBB3A /* OrderService.swift in Sources */,
+				D6E4FAB42A6EE485001CBB3A /* CancelService.swift in Sources */,
+				D6E4FAC82A6F82E3001CBB3A /* CartRepository.swift in Sources */,
+				D6E4FA9D2A6EE354001CBB3A /* BeerService.swift in Sources */,
+				D6E4FAF52A7048AE001CBB3A /* Drink.swift in Sources */,
+				D6E4FAF12A70489D001CBB3A /* IceCream.swift in Sources */,
+				D6E4FA9B2A6EE346001CBB3A /* DrinkService.swift in Sources */,
+				D6E4FABF2A6EF2B5001CBB3A /* MenuMaker.swift in Sources */,
 				D6E4FA8C2A6E4CB7001CBB3A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
